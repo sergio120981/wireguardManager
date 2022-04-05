@@ -1,0 +1,27 @@
+{
+  "name": "nodejsconsolewireguardmanager",
+  "version": "1.0.0",
+  "description": "CLI app in Node to manage wireguard connections (so far)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergio120981/nodejsConsoleWireguardManager.git"
+  },
+  "author": "SergioRivera",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sergio120981/nodejsConsoleWireguardManager/issues"
+  },
+  "homepage": "https://github.com/sergio120981/nodejsConsoleWireguardManager#readme",
+  "dependencies": {
+    "colors": "1.4.0",
+    "dotenv": "16.0.0",
+    "inquirer": "8.2.1",
+    "moment": "^2.29.1",
+    "sqlite3": "4.2.0",
+    "validator": "13.7.0"
+  }
+}
